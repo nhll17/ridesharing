@@ -1,0 +1,139 @@
+/* Gradient Background for Home Page and Ride Booking Page */
+.background {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(135deg, #a8edea, #fed6e3);
+  z-index: -1;
+  filter: brightness(1);
+}
+
+/* Ride Booking Container Styling */
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 3rem;
+  max-width: 600px;
+  margin: 3rem auto;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+  border-radius: 16px;
+  background: rgba(248, 250, 253, 0.85); /* Soft light blue tone to complement the background */
+  transition: transform 0.3s ease-in-out;
+  backdrop-filter: blur(10px);
+}
+
+.container:hover {
+  transform: scale(1.02);
+}
+
+/* Heading Styling */
+.heading {
+  font-size: 2.2rem;
+  margin-bottom: 2rem;
+  color: #0070f3;
+  font-weight: 700;
+  text-align: center;
+}
+
+/* Input Fields Styling */
+.inputField {
+  width: 100%;
+  padding: 1rem;
+  margin-bottom: 1.5rem;
+  border: 2px solid #ddd;
+  border-radius: 8px;
+  font-size: 1rem;
+  transition: border-color 0.3s ease-in-out;
+  outline: none;
+  background-color: #f0faff; /* Very light blue to match with the gradient */
+  color: black; /* Set text color to black */
+}
+
+.inputField:focus {
+  border-color: #0070f3;
+  box-shadow: 0 4px 8px rgba(0, 112, 243, 0.2);
+}
+
+/* Button Styling */
+.button {
+  background-color: #0070f3;
+  color: #fff;
+  padding: 1rem 2rem;
+  font-size: 1.1rem;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.button:hover {
+  background-color: #005bb5;
+  box-shadow: 0 6px 12px rgba(0, 91, 181, 0.4);
+}
+
+/* Ride Details Styling */
+.rideDetails {
+  margin-top: 2.5rem;
+  padding: 1.5rem;
+  border-radius: 12px;
+  background: #ffffff;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  text-align: left;
+}
+
+.rideDetails h3 {
+  margin-bottom: 1rem;
+  color: #0070f3;
+}
+
+.rideDetails p {
+  font-size: 1.1rem;
+  color: #555;
+  line-height: 1.6;
+}
+
+.profileContainer {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+}
+
+.profileButton {
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+  border-radius: 5px;
+  font-size: 14px;
+}
+
+.dropdownMenu {
+  background-color: white;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  position: absolute;
+  right: 0;
+  top: 40px;
+  width: 150px;
+  z-index: 1;
+}
+
+.dropdownMenu ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.dropdownMenu ul li {
+  padding: 10px;
+  cursor: pointer;
+}
+
+.dropdownMenu ul li:hover {
+  background-color: #f0f0f0;
+}
+

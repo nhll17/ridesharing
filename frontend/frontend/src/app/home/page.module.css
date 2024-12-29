@@ -1,0 +1,117 @@
+/* Updated CSS for the home page */
+
+.gradientBackground {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(135deg, #a8edea, #fed6e3);
+  z-index: -1;
+}
+
+.homeContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 4rem;
+  max-width: 800px;
+  margin: 5rem auto;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+  border-radius: 16px;
+  background: rgba(255, 255, 255, 0.85);
+  backdrop-filter: blur(10px);
+  text-align: center;
+}
+
+.homeHeading {
+  font-size: 3rem;
+  margin-bottom: 2rem;
+  color: #0070f3;
+  font-weight: 700;
+}
+
+.homeText {
+  font-size: 1.3rem;
+  margin-bottom: 3rem;
+  color: #555;
+  line-height: 1.6;
+}
+
+.homeButton {
+  background-color: #0070f3;
+  color: #fff;
+  padding: 1rem 3rem;
+  font-size: 1.2rem;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.homeButton:hover {
+  background-color: #005bb5;
+  box-shadow: 0 6px 12px rgba(0, 91, 181, 0.4);
+}
+
+/* New Styles for the About Section */
+.aboutContainer {
+  margin-top: 4rem;
+  padding: 3rem;
+  background: rgba(255, 255, 255, 0.85);
+  border-radius: 16px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+  text-align: left;
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.aboutHeading {
+  font-size: 2.5rem;
+  color: #0070f3;
+  margin-bottom: 1.5rem;
+  text-align: center;
+  font-weight: 700;
+}
+
+.aboutText {
+  font-size: 1.2rem;
+  color: #555;
+  line-height: 1.8;
+  margin-bottom: 1.5rem;
+}
+
+.aboutSubheading {
+  font-size: 1.6rem;
+  color: #333;
+  margin-bottom: 1rem;
+  font-weight: 600;
+}
+
+.aboutList {
+  list-style-type: disc;
+  margin-left: 2rem;
+  margin-bottom: 2rem;
+  font-size: 1.2rem;
+  color: #555;
+  line-height: 1.6;
+}
+
+.learnMoreButton {
+  background-color: #0070f3;
+  color: #fff;
+  padding: 0.8rem 2.5rem;
+  font-size: 1.1rem;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, box-shadow 0.3s ease;
+  display: block;
+  margin: 0 auto;
+}
+
+.learnMoreButton:hover {
+  background-color: #005bb5;
+  box-shadow: 0 6px 12px rgba(0, 91, 181, 0.4);
+}
